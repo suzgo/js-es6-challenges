@@ -11,3 +11,7 @@ let age, name, country
 
 ProTip: the 3 variables can be defined in one line
 */
+
+//Challenge 3: ES6 javascript - script_03.js
+
+let { age, name, country } = client;

@@ -15,3 +15,7 @@ console.log(salary) // 4000
 console.log(details) // {format: 'Full-Time', experience: 4}
 
 */
+
+//Challenge 5: ES6 javascript - script_05.js
+
+const { title, salary, ...details } = job;
