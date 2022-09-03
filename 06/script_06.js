@@ -13,5 +13,8 @@ console.log(jobInfo) // {salary: 4000, title: "Developer", format: "Full-Time", 
 
 */
 
+// console.log(job, details);
+
 const jobinfo = { ...job, ...details };
-console.log(jobInfo)
+
+// console.log(jobInfo);

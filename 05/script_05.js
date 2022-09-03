@@ -1,4 +1,4 @@
-//Challenge 5: ES6 javascript - script_5.js
+//Challenge 5: ES6 javascript - script_05.js
 
 const job = {
   salary: 4000,
@@ -15,13 +15,6 @@ Use the destructuring syntax and the rest operator to define variables out of th
 console.log(title) // 'Developer'
 console.log(salary) // 4000
 console.log(details) // {format: 'Full-Time', experience: 4}
-
 */
-//const { title, salary } = job
-//add details which contain hidden: format + experience values
 
-const {title, salary, ...details} = job
-console.log('Title:', title);
-console.log('Salary:', salary);
-console.log('Details:', details);
-
+const { title, salary, ...details } = job;

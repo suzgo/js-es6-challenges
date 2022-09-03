@@ -12,12 +12,5 @@ function doubleMe(a, b = 2) {
   return a * b;
 }
 console.log(doubleMe(6));
-// b will have a default value of 2 as not passing an argument
-//1st value passed is 6 and as no value passed in 2nd value it will take default preset value of 2
-//Double formula 6x2=12
-// expected output: 12
 
-console.log(multiply(6, 4));
-//2 values passed, so default preset value of 2 is ignored
-//6x4=24
-// expected output: 24
+console.log(doubleMe(6, 4));
